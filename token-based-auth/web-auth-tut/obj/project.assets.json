@@ -8,7 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/var/nuget": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "/workspaces/my-study/token-based-auth/web-auth-tut/web-auth-tut.csproj",
       "projectName": "web-auth-tut",
       "projectPath": "/workspaces/my-study/token-based-auth/web-auth-tut/web-auth-tut.csproj",
-      "packagesPath": "/var/nuget",
+      "packagesPath": "/home/vscode/.nuget/packages/",
       "outputPath": "/workspaces/my-study/token-based-auth/web-auth-tut/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.301/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
