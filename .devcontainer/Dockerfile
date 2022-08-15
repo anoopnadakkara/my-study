@@ -13,3 +13,9 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
+
+# Install spawnctl
+RUN curl https://run.spawn.cc/install | sh && ln -s $HOME/.spawnctl/bin/spawnctl /usr/local/bin
+# Install Flyway
+RUN wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/7.0.2/flyway-commandline-7.0.2-linux-x64.tar.gz | \
+tar xvz && sudo ln -s `pwd`/flyway-7.0.2/flyway /usr/local/bin

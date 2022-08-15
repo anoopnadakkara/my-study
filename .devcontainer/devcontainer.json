@@ -54,5 +54,22 @@
 	// "postCreateCommand": "dotnet restore",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"forwardPorts": [
+        5050,
+        3000
+    ],
+    "remoteEnv": {
+        "SPAWNCTL_ACCESS_TOKEN": "${localEnv:SPAWNCTL_ACCESS_TOKEN}"
+    },
+    "initializeCommand": "",
+    "onCreateCommand": [
+        "${containerWorkspaceFolder}/codespaces-start.sh"
+    ],
+    "updateContentCommand": [
+        "${containerWorkspaceFolder}/codespaces-build.sh"
+    ],
+    "postCreateCommand": "",
+    "postStartCommand": "",
+    "postAttachCommand": ""
 }
