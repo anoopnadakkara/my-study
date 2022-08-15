@@ -1,0 +1,15 @@
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.csproj.AssemblyReference.cache
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.AssemblyInfoInputs.cache
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.AssemblyInfo.cs
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.csproj.CoreCompileInputs.cache
+/workspaces/my-study/design-patterns/abstract-factory/bin/Debug/net6.0/abstract-factory
+/workspaces/my-study/design-patterns/abstract-factory/bin/Debug/net6.0/abstract-factory.deps.json
+/workspaces/my-study/design-patterns/abstract-factory/bin/Debug/net6.0/abstract-factory.runtimeconfig.json
+/workspaces/my-study/design-patterns/abstract-factory/bin/Debug/net6.0/abstract-factory.dll
+/workspaces/my-study/design-patterns/abstract-factory/bin/Debug/net6.0/abstract-factory.pdb
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.dll
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/refint/abstract-factory.dll
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.pdb
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/abstract-factory.genruntimeconfig.cache
+/workspaces/my-study/design-patterns/abstract-factory/obj/Debug/net6.0/ref/abstract-factory.dll
